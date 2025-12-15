@@ -104,7 +104,7 @@ function Hero() {
               <div className="absolute -top-4 -right-4 w-32 h-32 border-2 border-[#A020F0] opacity-30"></div>
               <div className="absolute -bottom-4 -left-4 w-24 h-24 border-2 border-white opacity-20"></div>
               
-              {/* User image */}
+              {/* User image gg */}
               <div className="w-full flex items-center justify-center">
                 <div className="w-64 h-64 rounded-full border-4 border-[#A020F0] overflow-hidden flex items-center justify-center">
                   <img 
