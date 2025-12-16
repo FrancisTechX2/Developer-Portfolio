@@ -16,6 +16,17 @@ function Contacts() {
     }
   }
 
+  const handleEmailCopy = async () => {
+    const email = 'contact.franciskierzkiewicz@gmail.com'
+    try {
+      await navigator.clipboard.writeText(email)
+      setCopyMessage('Email copied!')
+      setTimeout(() => setCopyMessage(''), 2000)
+    } catch (err) {
+      console.error('Failed to copy email:', err)
+    }
+  }
+
   return (
     <section id="contact-me" className="py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
@@ -49,12 +60,16 @@ function Contacts() {
                 <FontAwesomeIcon icon={faDiscord} className="w-5 h-5 sm:w-6 sm:h-6 text-white flex-shrink-0" />
                 <span className="text-white font-mono text-sm sm:text-base break-all">fcis_Dev</span>
               </button>
-              <div className="flex items-center space-x-4">
+              <button
+                onClick={handleEmailCopy}
+                className="flex items-center space-x-4 hover:text-[#A020F0] transition-colors text-left w-full"
+                type="button"
+              >
                 <svg className="w-5 h-5 sm:w-6 sm:h-6 text-white flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
                 <span className="text-white font-mono text-xs sm:text-sm md:text-base break-all">contact.franciskierzkiewicz@gmail.com</span>
-              </div>
+              </button>
             </div>
           </div>
         </div>
