@@ -34,19 +34,19 @@ function Projects() {
               <div className="h-48 mb-4 flex items-center justify-center border border-gray-700 overflow-hidden bg-gray-800">
                 {index === 0 ? (
                   <img 
-                    src="/assets/icons/parafia-logo.svg" 
+                    src={`${import.meta.env.BASE_URL}assets/icons/parafia-logo.svg`} 
                     alt={project.title}
                     className="w-32 h-32 object-contain"
                   />
                 ) : index === 1 ? (
                   <img 
-                    src="/assets/photos/saas-project.png" 
+                    src={`${import.meta.env.BASE_URL}assets/photos/saas-project.png`} 
                     alt={project.title}
                     className="w-full h-full object-cover"
                   />
                 ) : (
                   <img 
-                    src="/assets/icons/ios-icon.png" 
+                    src={`${import.meta.env.BASE_URL}assets/icons/ios-icon.png`} 
                     alt={project.title}
                     className="w-32 h-32 rounded-[22%] object-contain"
                   />

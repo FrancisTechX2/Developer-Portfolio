@@ -108,7 +108,7 @@ function Hero() {
               <div className="w-full flex items-center justify-center">
                 <div className="w-64 h-64 rounded-full border-4 border-[#A020F0] overflow-hidden flex items-center justify-center">
                   <img 
-                    src="/assets/photos/me.png" 
+                    src={`${import.meta.env.BASE_URL}assets/photos/me.png`} 
                     alt="Francis"
                     className="w-full h-full object-cover"
                   />

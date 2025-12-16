@@ -54,7 +54,7 @@ function AboutMe() {
               <div className="bg-gray-800 rounded-lg w-[70%] aspect-square flex items-center justify-center border-2 border-[#A020F0] relative overflow-hidden">
                 <div className="absolute inset-0 border-2 border-[#A020F0] opacity-20"></div>
                 <img 
-                  src="/assets/photos/me2.png" 
+                  src={`${import.meta.env.BASE_URL}assets/photos/me2.png`} 
                   alt="Francis Kierzkiewicz"
                   className="w-full h-full object-cover relative z-10"
                 />

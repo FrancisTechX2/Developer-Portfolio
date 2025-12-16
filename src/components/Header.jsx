@@ -4,7 +4,7 @@ function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center space-x-2 text-white font-mono text-sm sm:text-base md:text-lg truncate max-w-[50%]">
-            <img src="/logo.png" alt="Logo" className="h-6 w-6 sm:h-7 sm:w-7 md:h-8 md:w-8 object-contain flex-shrink-0" />
+            <img src={`${import.meta.env.BASE_URL}logo.png`} alt="Logo" className="h-6 w-6 sm:h-7 sm:w-7 md:h-8 md:w-8 object-contain flex-shrink-0" />
             <span>Francis Kierzkiewicz</span>
           </div>
           <nav className="hidden md:flex space-x-3 lg:space-x-6 flex-shrink-0">

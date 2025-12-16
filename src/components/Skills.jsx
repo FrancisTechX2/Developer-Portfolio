@@ -1,15 +1,16 @@
 function Skills() {
+  const baseUrl = import.meta.env.BASE_URL
   const skills = [
-    { name: "HTML5", iconPath: "/assets/icons/html-icon.png" },
-    { name: "CSS3", iconPath: "/assets/icons/css-icon.png" },
-    { name: "JavaScript (ES6+)", iconPath: "/assets/icons/javascript-icon.png" },
-    { name: "React", iconPath: "/assets/icons/react-icon.png" },
-    { name: "TypeScript", iconPath: "/assets/icons/typescript-icon.png" },
-    { name: "Node.js", iconPath: "/assets/icons/nodejs-icon.png" },
-    { name: "AWS", iconPath: "/assets/icons/aws-icon.png" },
-    { name: "Supabase", iconPath: "/assets/icons/supabase-icon.png" },
-    { name: "Electron", iconPath: "/assets/icons/electron-icon.png" },
-    { name: "Git", iconPath: "/assets/icons/git-icon.png" }
+    { name: "HTML5", iconPath: `${baseUrl}assets/icons/html-icon.png` },
+    { name: "CSS3", iconPath: `${baseUrl}assets/icons/css-icon.png` },
+    { name: "JavaScript (ES6+)", iconPath: `${baseUrl}assets/icons/javascript-icon.png` },
+    { name: "React", iconPath: `${baseUrl}assets/icons/react-icon.png` },
+    { name: "TypeScript", iconPath: `${baseUrl}assets/icons/typescript-icon.png` },
+    { name: "Node.js", iconPath: `${baseUrl}assets/icons/nodejs-icon.png` },
+    { name: "AWS", iconPath: `${baseUrl}assets/icons/aws-icon.png` },
+    { name: "Supabase", iconPath: `${baseUrl}assets/icons/supabase-icon.png` },
+    { name: "Electron", iconPath: `${baseUrl}assets/icons/electron-icon.png` },
+    { name: "Git", iconPath: `${baseUrl}assets/icons/git-icon.png` }
   ]
 
   return (
