@@ -1,4 +1,4 @@
-# Portfolio Site
+# Portfolio Site - Francis Kierzkiewicz
 
 A modern, dark-themed portfolio website built with React and Tailwind CSS, matching the design from `siteDesign.png`.
 
