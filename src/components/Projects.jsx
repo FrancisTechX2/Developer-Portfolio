@@ -66,7 +66,7 @@ function Projects() {
                 </a>
               ) : index === 1 ? (
                 <a 
-                  href="https://github.com/terk678" 
+                  href="https://github.com/FrancisTechX2" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="border-2 border-[#A020F0] text-white px-4 py-2 hover:bg-[#A020F0] transition-colors font-mono text-sm w-full block text-center"

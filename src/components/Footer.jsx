@@ -14,7 +14,7 @@ function Footer() {
           </div>
           <div className="flex items-center space-x-4">
             <span className="text-white font-mono text-sm sm:text-base">Media</span>
-            <a href="https://github.com/terk678" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[#A020F0] transition-colors">
+            <a href="https://github.com/FrancisTechX2" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[#A020F0] transition-colors">
               <FontAwesomeIcon icon={faGithub} className="w-5 h-5" />
             </a>
             <a href="https://www.figma.com/@franciskierzkie" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[#A020F0] transition-colors">

@@ -54,7 +54,7 @@ function Hero() {
           {/* Left Sidebar - Social Icons */}
           <div className="hidden lg:flex flex-col space-y-6 lg:col-span-1 items-center">
             {/* 1st - GitHub */}
-            <a href="https://github.com/terk678" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[#A020F0] transition-colors flex items-center justify-center">
+            <a href="https://github.com/FrancisTechX2" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[#A020F0] transition-colors flex items-center justify-center">
               <FontAwesomeIcon icon={faGithub} className="w-6 h-6" />
             </a>
             {/* 2nd - Discord */}
